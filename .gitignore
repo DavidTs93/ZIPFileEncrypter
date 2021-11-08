@@ -1,0 +1,10 @@
+
+.classpath
+.project
+*.prefs
+*.iml
+*.class
+META-INF/
+target/
+bin/
+*.class
