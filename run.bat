@@ -1,6 +1,7 @@
 @echo off
-set arg1=%1
-java -jar "%~dp0ZIPFileEncrypter.jar" %arg1%
-echo Done!
-echo If you paid for this you've been fooled! :)
+title ZIP File Encrypter
+IF "%1" == "" GOTO :eof
+java -jar "%~dp0ZIPFileEncrypter.jar" %1
+echo(
 pause
+:eof
