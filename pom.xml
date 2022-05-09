@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ZIPFileEncrypter</artifactId>
+    <groupId>DMan16</groupId>
     <description>Encrypt ZIP files without a password - opened and/or extracted files from inside it will be corrupted</description>
     <version>1.0</version>
     <packaging>jar</packaging>

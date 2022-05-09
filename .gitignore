@@ -7,4 +7,5 @@
 META-INF/
 target/
 bin/
+.idea/
 *.class

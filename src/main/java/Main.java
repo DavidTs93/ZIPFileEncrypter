@@ -55,10 +55,12 @@ public class Main {
 				System.out.println("Time elapsed: " + time + " seconds");
 			} catch (Exception e) {
 				System.out.println(error);
+				e.printStackTrace(System.out);
 				outputFile.delete();
 			}
 		} catch (Exception e) {
 			System.out.println(error);
+			e.printStackTrace(System.out);
 		}
 	}
 }
